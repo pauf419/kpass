@@ -1,0 +1,28 @@
+
+.CityListWrapper 
+    display: grid
+    gap: .5rem
+
+    
+
+.CityAddWrapper 
+    width: 100%
+    display: flex 
+    justify-content: center
+
+    &.CityAddWrapperActive
+        display: block
+
+    .AddCityBtn 
+        border: none 
+        background: transparent 
+        cursor: pointer
+        transition: .2s all ease 
+
+        &:hover 
+            transform: scale(1.4)
+
+        svg 
+            width: 35px 
+            height: 35px
+            display: block
